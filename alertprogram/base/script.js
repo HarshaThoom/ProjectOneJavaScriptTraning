@@ -1,0 +1,3 @@
+console.log("Wlcome to Harsha Training");
+alert("Welcome to Alert traning");
+

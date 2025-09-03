@@ -1,0 +1,82 @@
+let marks = 100;
+let firstName = "Harsha";
+let cash = "1000";
+let emptyString = "";
+let ispassed = true;
+let result;
+let myValue=null;
+let bigValue=500n;
+let s1 = Symbol("id");
+
+console .log("Marks",marks);
+console .log("First Name",firstName);   
+console .log("Cash",cash);
+console .log("Empty String",emptyString);
+console .log("Is Passed",ispassed);
+console .log("Result",result);
+console .log("My Value",myValue);
+console .log("Big Value",bigValue);
+console .log("S1",s1);
+
+let marksStr = String(marks);
+let firstNameStr = String(firstName);
+let cashStr = String(cash);
+let emptyStringStr = String(emptyString);
+let ispassedStr = String(ispassed);
+let resultStr = String(result);
+let myValueStr = String(myValue);
+let bigValueStr = String(bigValue);
+let s1Str = String(s1);
+
+console.log("=========StringConversions==========");
+console .log("marks:",marksStr);
+console .log("firstName:",firstNameStr);    
+console .log("cash:",cashStr);
+console .log("emptyString:",emptyStringStr);
+console .log("ispassed:",ispassedStr);
+console .log("result:",resultStr);
+console .log("myValue:",myValueStr);
+console .log("bigValue:",bigValueStr);
+console .log("s1:",s1Str);
+
+let marksNum= Number(marksStr);
+let firstNameNum= Number(firstNameStr);
+let cashNum= Number(cashStr);
+let emptyStringNum=Number(emptyStringStr);
+let ispassedNum=Number(ispassedStr);
+let resultNum=Number(resultStr);
+let myValueNum=Number(myValueStr);
+let bigValueNum=Number(bigValueStr);
+let s1Num=Number(s1Str);
+
+console.log("=========NumberConversions==========");
+console.log("marks:",marksNum);
+console.log("firstName:",firstNameNum);
+console.log("cash:",cashNum);
+console.log("emptyString:",emptyStringNum);
+console.log("ispassed:",ispassedNum);
+console.log("result:",resultNum);
+console.log("myValue:",myValueNum);
+console.log("bigValue:",bigValueNum);
+console.log("s1:",s1Num);
+
+let marksBool= Boolean(marksNum);
+let firstNameBool= Boolean(firstNameNum);       
+let cashBool= Boolean(cashNum);
+let emptyStringBool=Boolean(emptyStringNum);
+let ispassedBool=Boolean(ispassedNum);
+let resultBool=Boolean(resultNum);
+let myValueBool=Boolean(myValueNum);
+let bigValueBool=Boolean(bigValueNum);
+let s1Bool=Boolean(s1Num);
+
+console.log("=========BooleanConversions==========");
+console.log("marks:",marksBool);
+console.log("firstName:",firstNameBool);
+console.log("cash:",cashBool);
+console.log("emptyString:",emptyStringBool);
+console.log("ispassed:",ispassedBool);
+console.log("result:",resultBool);
+console.log("myValue:",myValueBool);
+console.log("bigValue:",bigValueBool);
+console.log("s1:",s1Bool);

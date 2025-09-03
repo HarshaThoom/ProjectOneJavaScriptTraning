@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    height:100vh;
+    background-color: black;
+
+}
+
+span{
+    background:url(https://cdn4.iconfinder.com/data/icons/small-n-flat/24/heart-512.png) no-repeat center center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

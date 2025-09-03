@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+.main-container {
+  display: flex;
+  gap: 20px;
+}
+.enquiry-form {
+  padding: 50px;
+  font-size: 20px;
+}
+
+#checkStatus {
+  border: none;
+  background-color: #7fffd4;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 50px;
+}
+#checkStatus:hover {
+  background-color: #318166;
+  color: white;
+}
